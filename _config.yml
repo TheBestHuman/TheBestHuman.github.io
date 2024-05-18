@@ -15,6 +15,11 @@ phone: Your phone number (optional)
 website: Your website (eg. https://google.com)(optional)
 # website_title: Web (Website title override)
 
+# Blog posts section configuration
+blog_posts_section:
+  title: "Latest Blog Posts"
+  data_file: "blog-posts"
+
 # Dark Mode (true/false/never)
 darkmode: false
 

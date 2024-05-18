@@ -33,7 +33,22 @@
   {% if site.darkmode == false %}
     <script src="{{ '/assets/js/index.js' | relative_url }}"></script>
   {% endif %}
-  test123
+  
+  <div id="latest-posts">
+    <h2>{{ site.blog_posts_section.title }}</h2>
+    {% assign blog_posts = site.data[site.blog_posts_section.data_file] %}
+    {% if blog_posts %}
+      {% for post in blog_posts %}
+        <div class="post">
+          <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+          <p>{{ post.excerpt }}</p>
+        </div>
+      {% endfor %}
+    {% else %}
+      <p>No blog posts found.</p>
+    {% endif %}
+  </div>
+  
 </body>
 
 </html>
