@@ -18,9 +18,8 @@
 
         <!--BEGIN BLOG BLOCK-->
         <div id="latest-posts" class="container {{ section.layout }}-container">
-          <h3 id="{{ section.title | slugify }}">{{ section.title }}</h3>
-
-          <h2>{{ site.blog_posts_section.title }}</h2>
+          <h3 id="{{ section.title | slugify }}">{{ site.blog_posts_section.title }}</h3>
+          <div>
           {% assign blog_posts = site.data[site.blog_posts_section.data_file] %}
           {% if blog_posts %}
             {% for post in blog_posts %}
@@ -32,6 +31,7 @@
           {% else %}
             <p>No blog posts found.</p>
           {% endif %}
+        </div>
         </div>
 
         <!--END BLOG BLOCK-->
