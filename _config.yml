@@ -46,13 +46,7 @@ additional_links:
 # about_title: About Me (Use this to override about section title)
 about_profile_image: /images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
-
-  You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
-    - Lists
-    - Tables
-    - <a href="google.com">Links</a>
-    - Images ![alt text](/images/landscape-trees.jpg "Trees")
+ Hi, I'm Brian! I’m an accomplished Engineering Manager with over 20 years of software development experience, leading innovative software teams and projects. I specialize in cloud migrations, agile transformations, and delivering robust C#/.NET/React/Angular/SQL solutions in fast-paced environments. I'm passionate about mentorship and building high-performing teams to drive impactful results.
 
 content:
   - title: Projects # Title for the section
