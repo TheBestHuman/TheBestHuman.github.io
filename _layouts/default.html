@@ -34,7 +34,9 @@
     <script src="{{ '/assets/js/index.js' | relative_url }}"></script>
   {% endif %}
   
-  <div id="latest-posts">
+  <div id="latest-posts" class="container {{ section.layout }}-container">
+    <h3 id="{{ section.title | slugify }}">{{ section.title }}</h3>
+    
     <h2>{{ site.blog_posts_section.title }}</h2>
     {% assign blog_posts = site.data[site.blog_posts_section.data_file] %}
     {% if blog_posts %}
@@ -48,7 +50,7 @@
       <p>No blog posts found.</p>
     {% endif %}
   </div>
-  
+
 </body>
 
 </html>
