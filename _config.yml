@@ -17,8 +17,10 @@ website: Your website (eg. https://google.com)(optional)
 
 # Blog posts section configuration
 blog_posts_section:
+  layout: left
   title: "Latest Blog Posts"
   data_file: "blog-posts"
+  
 
 # Dark Mode (true/false/never)
 darkmode: false
