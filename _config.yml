@@ -6,13 +6,10 @@ repository: Git repository where your resume will be hosted, only required if yo
 version: 2
 
 # Personal info
-name: Your Name
-title: Your job title
-email: Your email (optional)
-# email_title: Email (Email title override)
-phone: Your phone number (optional)
-# phone_title: Phone (Phone title override)
-website: Your website (eg. https://google.com)(optional)
+name: Brian Kimmel (he/him)
+title: Associate Director of Software Development
+email: kimmelb@gmail.com
+website: briankimmel.net
 # website_title: Web (Website title override)
 
 # Blog posts section configuration
@@ -26,19 +23,9 @@ blog_posts_section:
 darkmode: false
 
 # Social links
-twitter_username: jekyllrb
-github_username:  jekyll
-stackoverflow_username: "00000001"
-dribbble_username: jekyll
-facebook_username: jekyll
-flickr_username: jekyll
-instagram_username: jekyll
-linkedin_username: jekyll
-xing_username: jekyll
-pinterest_username: jekyll
-youtube_username: jekyll
-orcid_username: 0000-0000-0000-0000
-googlescholar_username: D847cGsAAAAJ
+github_username:  thebesthuman
+stackoverflow_username: "2831"
+linkedin_username: brianrkimmel
 
 # Additional icon links
 additional_links:
