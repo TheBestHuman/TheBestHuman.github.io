@@ -19,11 +19,11 @@
         <!--BEGIN BLOG BLOCK-->
         <div id="latest-posts" class="container {{ section.layout }}-container">
           <h3 id="{{ section.title | slugify }}">{{ site.blog_posts_section.title }}</h3>
-          <div>
+          <div class="layout layout-left">
           {% assign blog_posts = site.data[site.blog_posts_section.data_file] %}
           {% if blog_posts %}
             {% for post in blog_posts %}
-              <div class="post">
+              <div class="post" style="margin-right: 5px";>
                 <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
                 <p>{{ post.excerpt }}</p>
               </div>
