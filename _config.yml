@@ -30,7 +30,7 @@ github_username:  thebesthuman
 # Additional icon links
 additional_links:
 - title: gitlab
-  icon: fa-gitlab
+  icon: fa fa-gitlab
   url: https://gitlab.com/users/TheBestHuman/projects
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
