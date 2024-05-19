@@ -6,7 +6,7 @@ repository: Git repository where your resume will be hosted, only required if yo
 version: 2
 
 # Personal info
-name: Brian Kimmel (he/him)
+name: Brian Kimmel
 title: Associate Director of Software Development
 email: kimmelb@gmail.com
 website: briankimmel.net
@@ -46,7 +46,7 @@ additional_links:
 # about_title: About Me (Use this to override about section title)
 about_profile_image: /images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
- Hi, I'm Brian! I’m an accomplished Engineering Manager with over 20 years of software development experience, leading innovative software teams and projects. I specialize in cloud migrations, agile transformations, and delivering robust C#/.NET/React/Angular/SQL solutions in fast-paced environments. I'm passionate about mentorship and building high-performing teams to drive impactful results.
+ Hi, I'm Brian (he/him)! I’m an accomplished Engineering Manager with over 20 years of software development experience, leading innovative software teams and projects. I specialize in cloud migrations, agile transformations, and delivering robust C#/.NET/React/Angular/SQL solutions in fast-paced environments. I'm passionate about mentorship and building high-performing teams to drive impactful results.
 
 content:
   - title: Experience
