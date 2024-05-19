@@ -64,7 +64,7 @@ content:
           Began <mark>managing</mark> a team of 4 direct reports in July 2021. Designed and established a comprehensive <mark>hiring</mark> process, optimized for finding great talent in a fair and empathic way. Successfully hired and onboarded 5 additional exceptionally skilled engineers, including a new manager. Mentored and fostered technical skills across the team, with a special focus on coaching the new manager to effectively lead their team.
           
 
-          Orchestrated and executed the migration of our 15-year-old application from our on-premises data center to <mark>Azure</mark>. The <mark>architecture</mark> leveraged <mark>Azure SQL Managed Instances</mark>, Virtual Machines, Azure Data Factory, Azure DevOps, and Application Gateways with WAF for a robust and secure cloud solution.
+          Orchestrated and executed the migration of our 15-year-old application from our on-premises data center to <mark>Azure</mark>. The <mark>architecture</mark> leveraged Azure SQL Managed Instances, Virtual Machines, Azure Data Factory, Azure DevOps, and Application Gateways with WAF for a robust and secure cloud solution.
           
           
           Designed and managed the adoption of a lightweight <mark>quarterly planning process</mark>, leading to the <mark>on-time delivery</mark> of all releases over the course of four years, enhancing the reliability and efficiency of the engineering teams.
@@ -80,7 +80,7 @@ content:
         link_text: BeadMap
         additional_links:
           - title:  BeadMap on GitLab
-            icon: fab fa-gitlab
+            icon: fa fa-gitlab
             url: https://gitlab.com/TheBestHuman/beadmap
         quote: >
           An app written in Node.js/Javascript that converts an image into plans to recreate that image with [Perler beads](https://en.wikipedia.org/wiki/Fuse_beads)
