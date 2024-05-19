@@ -23,15 +23,15 @@ blog_posts_section:
 darkmode: false
 
 # Social links
-github_username:  thebesthuman
-stackoverflow_username: "2831"
 linkedin_username: brianrkimmel
+stackoverflow_username: "2831"
+github_username:  thebesthuman
 
 # Additional icon links
 additional_links:
-- title: Link name
-  icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
-  url: Link url (eg. https://google.com)
+- title: gitlab
+  icon: gitlab
+  url: https://gitlab.com/users/TheBestHuman/projects
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
 #   url: Link url (eg. https://google.com)
@@ -49,26 +49,6 @@ about_content: | # this will include new lines to allow paragraphs
  Hi, I'm Brian! I’m an accomplished Engineering Manager with over 20 years of software development experience, leading innovative software teams and projects. I specialize in cloud migrations, agile transformations, and delivering robust C#/.NET/React/Angular/SQL solutions in fast-paced environments. I'm passionate about mentorship and building high-performing teams to drive impactful results.
 
 content:
-  - title: Projects # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: left
-        border: weak  # Value of `weak` will display a weak border below this item. # Any 
-                      # other value (or no value) means no border will be displayed
-        title: Project name
-        link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        link_text: Link Text
-        additional_links:
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        quote: >
-          Short overview of the project (optional)
-        description: | # this will include new lines to allow paragraphs
-          Description about the work on/with the project
   - title: Experience
     layout: list
     content:
@@ -99,6 +79,24 @@ content:
 
       Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
 
+  - title: Personal Projects # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        border: weak  # Value of `weak` will display a weak border below this item. # Any 
+                      # other value (or no value) means no border will be displayed
+        title: BeadMap
+        link: https://gitlab.com/TheBestHuman/beadmap
+        link_text: BeadMap
+        additional_links:
+          - title:  BeadMap on GitLab
+            icon: fab fa-gitlab
+            url: https://gitlab.com/TheBestHuman/beadmap
+        quote: >
+          An app written in Node.js/Javascript that converts an image into plans to recreate that image with [Perler beads](https://en.wikipedia.org/wiki/Fuse_beads)
+        description: | # this will include new lines to allow paragraphs
+          Perler/fuse beads are the perfect Saturday afternoon activity. I was first introduced to them a few years ago and was disappointed with the limited choice of patterns available. I built this as a hobby project to convert arbitrary images into Perler bead patterns.
+          This project runs <mark>Node.js</mark> in <mark>Docker</mark> containers with <mark>Javascript</mark> for the UI. It pixelates the image, quantizes the colors, and reconstructs the image in mosaic form, with a helpful legend/shopping list of beads required to reconstruct the image.
 # Footer
 footer_show_references: true
 # references_title: References on request (Override references text)
