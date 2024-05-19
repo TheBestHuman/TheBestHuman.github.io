@@ -68,6 +68,20 @@ content:
           
           
           Designed and managed the adoption of a lightweight <mark>quarterly planning process</mark>, leading to the <mark>on-time delivery</mark> of all releases over the course of four years, enhancing the reliability and efficiency of the engineering teams.
+      - layout: left
+        title: IQVIA
+        sub_title: Lead Software Engineer
+        caption: April 2016 – June 2019
+        link: https://www.iqvia.com/
+        quote: >
+          Oversaw design, architecture, and planning for the Clinical Trial Optimization Solutions group 
+        description: | # this will include new lines to allow paragraphs
+          
+          Led a strategic, phased migration of a 15-year-old flagship .NET 3.5 Application to ASP.NET MVC 5 and Angular. This approach enables continuous delivery to production, significantly <mark>enhancing performance, reducing technical debt, and modernizing the user experience</mark>.
+
+          Pioneered and implemented <mark>Scrum</mark> in a previously waterfall environment, establishing buy-in from management and developers unfamiliar with the process. 
+
+          Developed the team’s <mark>Continuous Integration</mark> process and <mark>branching strategy</mark>. Moved the team to <makr>git + Jira + Hudson</mark>, allowing us to test earlier and more often.
 
   - title: Personal Projects # Title for the section
     layout: list # Type of content section (list/text)
