@@ -61,24 +61,6 @@ content:
           Short description of the company (optional)
         description: | # this will include new lines to allow paragraphs
           Description of role
-  - title: Education
-    layout: list
-    content:
-      - layout: top-right
-        title: Institution name
-        sub_title: Qualifications (eg. BA Performing Arts)
-        caption: Date Range (eg. 2016 - 2019)
-        quote: >
-          Short institution or course description (optional)
-        description: | # this will include new lines to allow paragraphs
-          Description of qualification
-  - title: A Little More About Me
-    layout: text
-    content: | # this will include new lines to allow paragraphs
-      This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
-
-      Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
-
   - title: Personal Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
@@ -97,6 +79,25 @@ content:
         description: | # this will include new lines to allow paragraphs
           Perler/fuse beads are the perfect Saturday afternoon activity. I was first introduced to them a few years ago and was disappointed with the limited choice of patterns available. I built this as a hobby project to convert arbitrary images into Perler bead patterns.
           This project runs <mark>Node.js</mark> in <mark>Docker</mark> containers with <mark>Javascript</mark> for the UI. It pixelates the image, quantizes the colors, and reconstructs the image in mosaic form, with a helpful legend/shopping list of beads required to reconstruct the image.
+
+  - title: Education
+    layout: list
+    content:
+      - layout: top-right
+        title: Institution name
+        sub_title: Qualifications (eg. BA Performing Arts)
+        caption: Date Range (eg. 2016 - 2019)
+        quote: >
+          Short institution or course description (optional)
+        description: | # this will include new lines to allow paragraphs
+          Description of qualification
+  - title: A Little More About Me
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
+
+      Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
+
 # Footer
 footer_show_references: true
 # references_title: References on request (Override references text)
