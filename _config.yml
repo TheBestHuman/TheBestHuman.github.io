@@ -84,7 +84,7 @@ content:
 
           Developed the team’s <mark>Continuous Integration</mark> process and <mark>branching strategy</mark>. Moved the team to <makr>git + Jira + Hudson</mark>, allowing us to test earlier and more often.
 
-  - title: Featured Personal Projects # Title for the section
+  - title: Featured Personal Projects<br> more at <a href="https://gitlab.com/users/TheBestHuman/projects"><i class="fa fa-gitlab" aria-hidden="true"></i></a> # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
@@ -134,7 +134,7 @@ content:
           An open-source random Sudoku puzzle generator
         description: | # this will include new lines to allow paragraphs
           Written for a client and open-sourced with permission, a cross-platform desktop Sudoku puzzle generator.
-          
+
   - title: Education
     layout: list
     content:
