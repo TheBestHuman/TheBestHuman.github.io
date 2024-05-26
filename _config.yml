@@ -84,7 +84,7 @@ content:
 
           Developed the team’s <mark>Continuous Integration</mark> process and <mark>branching strategy</mark>. Moved the team to <makr>git + Jira + Hudson</mark>, allowing us to test earlier and more often.
 
-  - title: Personal Projects # Title for the section
+  - title: Featured Personal Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
@@ -120,6 +120,21 @@ content:
               <li>Continuous play: after completing one puzzle, you can tap "NEXT WORD" to keep playing with a different word</li>
               <li>Ability to share a board; allowing you to challenge others to the same word during continuous play</li>
           </ul>
+      - layout: left
+        border: weak  # Value of `weak` will display a weak border below this item. # Any 
+                      # other value (or no value) means no border will be displayed
+        title: Desktop Sudoku Generator
+        link: https://github.com/TheBestHuman/DesktopSudokuGenerator
+        link_text: Desktop Sudoku Generator
+        additional_links:
+          - title:  Desktop Sudoku Generator on GitHub
+            icon: fa fa-github
+            url: https://github.com/TheBestHuman/DesktopSudokuGenerator
+        quote: >
+          An open-source random Sudoku puzzle generator
+        description: | # this will include new lines to allow paragraphs
+          Written for a client and open-sourced with permission, a cross-platform desktop Sudoku puzzle generator.
+          
   - title: Education
     layout: list
     content:
