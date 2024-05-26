@@ -15,7 +15,7 @@ website: briankimmel.net
 # Blog posts section configuration
 blog_posts_section:
   layout: left
-  title: "Writing<br>more at <a href='https://pr.ogra.ms'>pr.ogra.ms</a>"
+  title: "Writing"
   data_file: "blog-posts"
   
 
@@ -134,7 +134,11 @@ content:
           An open-source random Sudoku puzzle generator
         description: | # this will include new lines to allow paragraphs
           Written for a client and open-sourced with permission, a cross-platform desktop Sudoku puzzle generator.
-
+      - layout: left
+        border: weak  # Value of `weak` will display a weak border below this item. # Any 
+                      # other value (or no value) means no border will be displayed
+        title: more at pr.ogra.ms
+        link: https://pr.ogra.ms
   - title: Education
     layout: list
     content:
@@ -144,6 +148,7 @@ content:
         caption: May 2003
         quote: >
           (Minors: Physics and Mathematics)
+
 
 # Footer
 footer_show_references: true
