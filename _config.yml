@@ -137,17 +137,17 @@ content:
       - layout: left
         border: weak  # Value of `weak` will display a weak border below this item. # Any 
                       # other value (or no value) means no border will be displayed
-        title: more at pr.ogra.ms
-        link: https://pr.ogra.ms
+        title: more at
+        link: https://gitlab.com/users/TheBestHuman/projects
   - title: Education
     layout: list
     content:
       - layout: top-right
         title: Southern Connecticut State University, New Haven, CT
-        sub_title: Bachelor of Science in Computer Science
+        sub_title: "Bachelor of Science in Computer Science<br> (Minors: Physics and Mathematics)"
         caption: May 2003
         quote: >
-          (Minors: Physics and Mathematics)
+          
 
 
 # Footer
