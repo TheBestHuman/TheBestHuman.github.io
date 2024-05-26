@@ -27,7 +27,7 @@ additional_links:
 - title: gitlab
   icon: fa fa-gitlab
   url: https://gitlab.com/users/TheBestHuman/projects
-  
+
 # Social links
 linkedin_username: brianrkimmel
 stackoverflow_username: "2831"
@@ -102,7 +102,24 @@ content:
         description: | # this will include new lines to allow paragraphs
           Perler/fuse beads are the perfect Saturday afternoon activity. I was first introduced to them a few years ago and was disappointed with the limited choice of patterns available. I built this as a hobby project to convert arbitrary images into Perler bead patterns.
           This project runs <mark>Node.js</mark> in <mark>Docker</mark> containers with <mark>Javascript</mark> for the UI. It pixelates the image, quantizes the colors, and reconstructs the image in mosaic form, with a helpful legend/shopping list of beads required to reconstruct the image.
-
+      - layout: left
+        border: weak  # Value of `weak` will display a weak border below this item. # Any 
+                      # other value (or no value) means no border will be displayed
+        title: long-wordle
+        link: https://gitlab.com/TheBestHuman/long-wordle
+        link_text: long-wordle
+        additional_links:
+          - title:  long-wordle on GitLab
+            icon: fa fa-gitlab
+            url: https://gitlab.com/TheBestHuman/long-wordle
+        quote: >
+          A clone of the original Wordle code with added features
+        description: | # this will include new lines to allow paragraphs
+          Originally written as a Valentine's gift for my partner, I built a modified version of Wordle that includes:
+          <ul><li>An expanded word list to make things extra challenging</li>
+              <li>Continuous play: after completing one puzzle, you can tap "NEXT WORD" to keep playing with a different word</li>
+              <li>Ability to share a board; allowing you to challenge others to the same word during continuous play</li>
+          </ul>
   - title: Education
     layout: list
     content:
