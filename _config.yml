@@ -84,7 +84,7 @@ content:
 
           Developed the team’s <mark>Continuous Integration</mark> process and <mark>branching strategy</mark>. Moved the team to <makr>git + Jira + Hudson</mark>, allowing us to test earlier and more often.
 
-  - title: Featured Personal Projects<br> more at <a href="https://gitlab.com/users/TheBestHuman/projects"><i class="fa fa-gitlab" aria-hidden="true"></i></a> # Title for the section
+  - title: Featured Personal Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
