@@ -59,16 +59,18 @@ content:
         caption: June 2019 - Present
         link: https://www.iqvia.com/
         quote: >
-          Currently leading a team of 20 software engineers, including 5 direct reports, one of whom is a manager overseeing a team of 4 engineers. Our team develops features for and supports an industry-leading, client-facing, multi-tenant cloud-based SaaS product used by top pharma to plan clinical trials.
+          Currently directing a team of 26 software engineers (10 FTEs and 16 contractors,) including <mark>5 direct reports, one of whom is a manager overseeing a team of 5 engineers</mark>. Our group develops features for and maintains an industry-leading, client-facing, multi-tenant cloud-based SaaS product used by <mark>top pharma</mark> to plan <mark>clinical trials</mark>.
         description: | # this will include new lines to allow paragraphs
+          Designed and established a comprehensive hiring process, optimized for finding great talent in a fair and empathic way. <mark>Successfully hired and onboarded a new team of 5 additional exceptionally skilled engineers</mark>, including a manager, reporting to me. Mentored and fostered technical skills across the team, with a special focus on coaching the new manager to effectively lead the new team. This expansion has increased our throughput by more than 25%, allowing us to fulfill on large client contracts while continuing to enhance the product.
           
-          Began <mark>managing</mark> a team of 4 direct reports in July 2021. Designed and established a comprehensive <mark>hiring</mark> process, optimized for finding great talent in a fair and empathic way. Successfully hired and onboarded 5 additional exceptionally skilled engineers, including a new manager. Mentored and fostered technical skills across the team, with a special focus on coaching the new manager to effectively lead their team.
+          Introduced and staffed the <mark>new role of Support Engineer</mark>, a specialized IC that will quickly respond to and triage critical client issues. Implemented new <mark>incident response protocols</mark>, and spread responsibilities across time zones, increasing our response footprint <mark>from 8 hrs/day to 24 hrs/day</mark>.
           
+          Designed and managed the adoption of a <mark>lightweight quarterly planning process</mark>, leading to the on-time delivery of all releases over the course of four years, enhancing the reliability and efficiency of the engineering teams.
+          
+          Orchestrated and executed the migration of our 15-year-old application from <mark>on-premises to Azure</mark>. The architecture leveraged Azure SQL Managed Instances, Virtual Machines, Azure Data Factory, Azure DevOps, and Application Gateways with WAF, which increased security and <mark>decreased our disaster recovery RPO/RTO by 80%</mark>
 
-          Orchestrated and executed the migration of our 15-year-old application from our on-premises data center to <mark>Azure</mark>. The <mark>architecture</mark> leveraged Azure SQL Managed Instances, Virtual Machines, Azure Data Factory, Azure DevOps, and Application Gateways with WAF for a robust and secure cloud solution.
-          
-          
-          Designed and managed the adoption of a lightweight <mark>quarterly planning process</mark>, leading to the <mark>on-time delivery</mark> of all releases over the course of four years, enhancing the reliability and efficiency of the engineering teams.
+          Spearheaded the transition to an advanced <mark>CI/CD process</mark>, implementing artifact-based deployments which decreased production <mark>deployment times from 2 hours to 5 minutes</mark>. Enhanced code quality and security through the integration of merge/pull requests, impact reviews, automated testing, and static code analysis into our SDLC.
+
       - layout: left
         title: IQVIA
         sub_title: Lead Software Engineer
