@@ -72,7 +72,7 @@ content:
           Spearheaded the transition to an advanced <mark>CI/CD process</mark>, implementing artifact-based deployments which decreased production <mark>deployment times from 2 hours to 5 minutes</mark>. Enhanced code quality and security through the integration of merge/pull requests, impact reviews, automated testing, and static code analysis into our SDLC.
 
       - layout: left
-        title: IQVIA
+        title: IQVIA (formerly IMS)
         sub_title: Lead Software Engineer
         caption: April 2016 – June 2019
         link: https://www.iqvia.com/
@@ -80,12 +80,56 @@ content:
           Oversaw design, architecture, and planning for the Clinical Trial Optimization Solutions group 
         description: | # this will include new lines to allow paragraphs
           
-          Led a strategic, phased migration of a 15-year-old flagship .NET 3.5 Application to ASP.NET MVC 5 and Angular. This approach enables continuous delivery to production, significantly <mark>enhancing performance, reducing technical debt, and modernizing the user experience</mark>.
+          Led a strategic, phased migration of a 15-year-old flagship .NET 3.5 Application to ASP.NET MVC 5 and Angular. This approach enables continuous delivery to production, significantly enhancing performance, reducing technical debt, and modernizing the user experience.
+          
+          Pioneered and implemented Scrum in a previously waterfall environment, establishing buy-in from management and developers unfamiliar with the process. 
+          
+          Developed the team’s Continuous Integration process and branching strategy. Moved the team to git + Jira + Hudson, allowing us to test earlier and more often.
+      
+      - layout: left
+        title: IMS Health (formerly TTC)
+        sub_title: Senior Software Engineer
+        caption: January 2012 – April 2016
+        link: https://www.iqvia.com/
+        quote: >
+          Oversaw design, architecture, and planning for the Clinical Trial Optimization Solutions group 
 
-          Pioneered and implemented <mark>Scrum</mark> in a previously waterfall environment, establishing buy-in from management and developers unfamiliar with the process. 
+      - layout: left
+        title: Photobot 3000
+        sub_title: Co-Founder
+        caption: December 2010 – December 2017
+        link: https://www.instagram.com/photobot3000/
+        quote: >
+          Co-founded Photobot 3000, a Philadelphia-based company specializing in customized portable photo booths for event photography. Developed a real-time event photography system, using a combination of hardware and software to present a unified, joyful experience to guests. Enhanced user experience with a custom greenscreen module and a user-friendly iPad app. The system served hundreds of events and processed tens of thousands of photos.
+      
+      - layout: left
+        title: Pulsar Informatics
+        sub_title: Senior Engineer
+        caption: October 2008 – December 2010
+        link: https://pulsarinformatics.com/
+        quote: >
+          As a senior member of an agile scientific startup; created software to help clients such as NASA and the UPENN monitor and study individual fatigue. Notably, <mark>the software was used on the ISS to study fatigue in astronauts</mark>.
+        description: | # this will include new lines to allow paragraphs
+          
+          Created an infrastructure for seamless and instant localization of Pulsar's flagship cognitive testing product written in C++/CLI. This functionality enabled users to switch between English and Russian at the press of a button to accommodate the bilingual crew of the Mars-500 study.
+          
+          Improved a critical randomization algorithm in Pulsar's testing suite so that it more rigidly followed the precedents set by established psychological studies. This enhancement was deployed to the International Space Station where astronauts use the software to measure their fatigue.
 
-          Developed the team’s <mark>Continuous Integration</mark> process and <mark>branching strategy</mark>. Moved the team to <makr>git + Jira + Hudson</mark>, allowing us to test earlier and more often.
+      - layout: left
+        title: DKR Oasis Management Co. LP
+        sub_title: Application Developer/Senior Application Developer
+        caption: April 2005 – October 2008
+        link: https://oasiscm.com/
+        quote: >
+          As the senior member of a back-office development team at a hedge fund; planned, engineered and built applications to support trade reconciliation, pricing, and accounting operations. Took on an active role in long-term project planning, task estimation, hiring and training.
 
+      - layout: left
+        title: Evaluation Associates, LLC
+        sub_title: Junior Application Developer
+        caption: August 2003 – December 2007
+        quote: >
+          Designed, developed, debugged, documented, tested and deployed software applications to support business activities at a small securities rating firm.
+  
   - title: Featured Personal Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
