@@ -34,6 +34,9 @@ jobs:
         env:
           GHOST_API_KEY: ${{ secrets.GHOST_API_KEY }}
 
+      - name: Remove package-lock.json
+        run: rm -f package-lock.json
+
       - name: Commit changes
         run: |
           git config --global user.name 'github-actions[bot]'
