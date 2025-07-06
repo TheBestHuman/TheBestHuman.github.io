@@ -111,6 +111,29 @@
       }
     }
   }
+
+  .post {
+    flex: 1 1 0;
+    min-width: 0;
+    margin: 0 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    align-items: stretch;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+    padding: 1.5rem 1rem;
+    min-height: 320px;
+
+    h2 {
+      flex-shrink: 0;
+    }
+
+    p {
+      flex-grow: 1;
+    }
+  }
 }
 
 .layout-right {
@@ -190,5 +213,12 @@ p.quote {
     text-align: left;
     padding: 0rem 1rem;
     margin-top: 1rem;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .layout .post {
+    margin: 1rem 0;
+    min-height: 0;
   }
 }
