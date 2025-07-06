@@ -120,11 +120,14 @@
     flex-direction: column;
     justify-content: stretch;
     align-items: stretch;
-    background: #fff;
-    border-radius: 8px;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+    /* Remove background, border-radius, and box-shadow for consistency */
+    background: inherit;
+    border-radius: 0;
+    box-shadow: none;
     padding: 1.5rem 1rem;
     min-height: 320px;
+    font: inherit;
+    color: inherit;
 
     h2 {
       flex-shrink: 0;
