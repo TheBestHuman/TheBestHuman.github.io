@@ -7,7 +7,7 @@ version: 2
 
 # Personal info
 name: Brian Kimmel
-title: Associate Director of Software Development
+title: Director of Software Engineering
 email: kimmelb@gmail.com
 website: briankimmel.net
 # website_title: Web (Website title override)
@@ -47,7 +47,7 @@ github_username:  thebesthuman
 # about_title: About Me (Use this to override about section title)
 about_profile_image: /images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
- Hi, I'm Brian (he/him)! I’m an accomplished engineering leader with over 20 years of software development experience, leading innovative software teams and projects. I specialize in cloud migrations, agile transformations, and delivering robust C#/.NET/React/Angular/SQL solutions in fast-paced environments. I'm passionate about mentorship and building high-performing teams to drive impactful results.
+ Hi, I’m Brian (he/him)! I’m a Director of Software Engineering with 20+ years of experience leading engineering organizations that deliver complex, high-impact systems, with a focus on modernizing legacy platforms and improving performance, security, and delivery speed. I build and grow high-performing groups through thoughtful hiring and mentorship, and I’m especially interested in helping engineers adopt practical AI workflows that consistently deliver results.
 
 content:
   - title: Experience
@@ -55,21 +55,43 @@ content:
     content:
       - layout: left
         title: IQVIA
-        sub_title: Associate Director, Software Development
-        caption: June 2019 - Present
+        sub_title: Director of Software Development Engineering
+        caption: October 2025 - Present
         link: https://www.iqvia.com/
         quote: >
-          Currently directing a team of 26 software engineers (10 FTEs and 16 contractors,) including <b>5 direct reports, one of whom is a manager overseeing a team of 5 engineers</b>. Our group develops features for and maintains an industry-leading, client-facing, multi-tenant cloud-based SaaS product used by <b>top pharma</b> to plan <b>clinical trials</b>.
+          Directed engineering for an industry-leading, client-facing, multi-tenant SaaS cost benchmarking platform used in 76% of clinical trials globally.
         description: | # this will include new lines to allow paragraphs
-          Designed and established a comprehensive hiring process, optimized for finding great talent in a fair and empathic way. <b>Successfully hired and onboarded a new team of 5 additional exceptionally skilled engineers</b>, including a manager, reporting to me. Mentored and fostered technical skills across the team, with a special focus on coaching the new manager to effectively lead the new team. This expansion has increased our throughput by more than 25%, allowing us to fulfill on large client contracts while continuing to enhance the product.
-          
-          Introduced and staffed the <b>new role of Support Engineer</b>, a specialized IC that will quickly respond to and triage critical client issues. Implemented new <b>incident response protocols</b>, and spread responsibilities across time zones, increasing our response footprint <b>from 8 hrs/day to 24 hrs/day</b>.
-          
-          Designed and managed the adoption of a <b>lightweight quarterly planning process</b>, leading to the on-time delivery of all releases over the course of four years, enhancing the reliability and efficiency of the engineering teams.
-          
-          Orchestrated and executed the migration of our 15-year-old application from <b>on-premises to Azure</b>. The architecture leveraged Azure SQL Managed Instances, Virtual Machines, Azure Data Factory, Azure DevOps, and Application Gateways with WAF, which increased security and <b>decreased our disaster recovery RPO/RTO by 80%</b>
+          Led a 39-person engineering organization responsible for a mission-critical clinical trial cost platform, directly managing 9 leaders across engineering, QA, and program, including Staff and AI/ML engineers.
 
-          Spearheaded the transition to an advanced <b>CI/CD process</b>, implementing artifact-based deployments which decreased production <b>deployment times from 2 hours to 5 minutes</b>. Enhanced code quality and security through the integration of merge/pull requests, impact reviews, automated testing, and static code analysis into our SDLC.
+          Stabilized a high-risk platform under executive client escalation, delivering a <b>60x performance improvement</b> and restoring enterprise client confidence.
+
+          Led budget planning and vendor negotiations to balance security investments with delivery of a new AI-powered protocol ingestion capability, bringing that feature to market ahead of competitors.
+
+          Established a comprehensive application security program spanning SAST, vulnerability scanning, pentesting, and red team exercises, eliminating all high and critical vulnerabilities and materially improving audit readiness.
+
+          Partnered with legal and infosec to strengthen contractual security requirements, aligning platform capabilities with enterprise standards and unblocking customer deals.
+
+          Led AI adoption across the engineering organization, increasing usage from 30% to 90% of pull requests in 3 months and improving productivity by 10 to 20%.
+
+      - layout: left
+        title: IQVIA
+        sub_title: Associate Director of Software Development
+        caption: June 2019 - October 2025
+        link: https://www.iqvia.com/
+        quote: >
+          Managed 6 direct reports, including two managers, and led a 26-person engineering organization supporting a major clinical trial platform.
+        description: | # this will include new lines to allow paragraphs
+          Budgeted a balanced mix of FTEs and contractors for 2025, optimizing engineer allocation, team effectiveness, and cost management.
+
+          Increased delivery capacity by recruiting, hiring, and onboarding 10 top-performing engineers, using a repeatable hiring process designed to identify strong talent in a fair and empathic way.
+
+          Partnered with product and program leadership to plan and execute the roadmap while balancing engineering initiatives with product priorities.
+
+          Planned and led the migration of the application from on-premises infrastructure to Azure, enhancing security and reducing disaster recovery time by 80%.
+
+          Instituted Innovation Week, a quarterly program combining training, team building, and hackathons that directly contributed to performance improvements and tech debt reduction.
+
+          Successfully leveraged LLM tools including ChatGPT, GitHub Copilot, and GitLab Duo to accelerate code reviews, root cause analysis, and training documentation.
 
       - layout: left
         title: IQVIA (formerly IMS)
@@ -77,14 +99,14 @@ content:
         caption: April 2016 – June 2019
         link: https://www.iqvia.com/
         quote: >
-          Oversaw design, architecture, and planning for the Clinical Trial Optimization Solutions group 
+          Oversaw design, architecture, and planning for the Clinical Trial Optimization Solutions group.
         description: | # this will include new lines to allow paragraphs
           
-          Led a strategic, phased migration of a 15-year-old flagship .NET 3.5 Application to ASP.NET MVC 5 and Angular. This approach enables continuous delivery to production, significantly enhancing performance, reducing technical debt, and modernizing the user experience.
+          Led a strategic, phased migration of a 15-year-old flagship .NET 3.5 application to ASP.NET MVC 5 and Angular, enabling continuous delivery to production, improving performance, reducing technical debt, and modernizing the user experience.
           
-          Pioneered and implemented Scrum in a previously waterfall environment, establishing buy-in from management and developers unfamiliar with the process. 
+          Pioneered and implemented Scrum in a previously waterfall environment, establishing buy-in from management and developers unfamiliar with the process.
           
-          Developed the team’s Continuous Integration process and branching strategy. Moved the team to git + Jira + Hudson, allowing us to test earlier and more often.
+          Developed the team's branching strategy and moved the team to Git and Jira, improving traceability and testability.
       
       - layout: left
         title: IMS Health (formerly TTC)
@@ -92,7 +114,7 @@ content:
         caption: January 2012 – April 2016
         link: https://www.iqvia.com/
         quote: >
-          Oversaw design, architecture, and planning for the Clinical Trial Optimization Solutions group 
+          Joined TTC as the first in-house software engineer and helped build a team of 4 developers and 1 QA while collaborating with a remote team of 10 consultants to deliver new features and enhance the architecture.
 
       - layout: left
         title: Photobot 3000
@@ -117,7 +139,7 @@ content:
 
       - layout: left
         title: DKR Oasis Management Co. LP
-        sub_title: Application Developer/Senior Application Developer
+        sub_title: Software Engineer / Senior Software Engineer
         caption: April 2005 – October 2008
         link: https://oasiscm.com/
         quote: >
@@ -125,7 +147,7 @@ content:
 
       - layout: left
         title: Evaluation Associates, LLC
-        sub_title: Junior Application Developer
+        sub_title: Software Engineer
         caption: August 2003 – December 2007
         quote: >
           Designed, developed, debugged, documented, tested and deployed software applications to support business activities at a small securities rating firm.
@@ -133,6 +155,24 @@ content:
   - title: Featured Personal Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
+      - layout: left
+        border: weak  # Value of `weak` will display a weak border below this item. # Any 
+                      # other value (or no value) means no border will be displayed
+        title: Melticulous
+        link: https://www.melticulous.com
+        link_text: Melticulous
+        additional_links:
+          - title: Melticulous website
+            icon: fa fa-globe
+            url: https://www.melticulous.com
+        quote: >
+          A browser-based app that turns your images into Perler bead patterns.
+        description: | # this will include new lines to allow paragraphs
+          Melticulous converts photos and other images into printable Perler bead patterns, helping makers turn personal pictures, landscapes, and pixel-art ideas into bead projects.
+
+          It generates a clean grid layout, reduces the image to a practical bead palette, and provides the visual guidance needed to recreate the design accurately.
+
+          Because it runs entirely in the browser, users can create patterns without sending their images to a backend service.
       - layout: left
         border: weak  # Value of `weak` will display a weak border below this item. # Any 
                       # other value (or no value) means no border will be displayed
@@ -144,10 +184,13 @@ content:
             icon: fa fa-gitlab
             url: https://gitlab.com/TheBestHuman/beadmap
         quote: >
-          An app written in Node.js/Javascript that converts an image into plans to recreate that image with [Perler beads](https://en.wikipedia.org/wiki/Fuse_beads)
+          An open-source bead pattern generator focused on image conversion and reproducible planning.
         description: | # this will include new lines to allow paragraphs
-          Perler/fuse beads are the perfect Saturday afternoon activity. I was first introduced to them a few years ago and was disappointed with the limited choice of patterns available. I built this as a hobby project to convert arbitrary images into Perler bead patterns.
-          This project runs <b>Node.js</b> in <b>Docker</b> containers with <b>Javascript</b> for the UI. It pixelates the image, quantizes the colors, and reconstructs the image in mosaic form, with a helpful legend/shopping list of beads required to reconstruct the image.
+          BeadMap is an earlier, code-centric take on the same creative space: converting arbitrary images into structured bead plans that makers can actually follow.
+
+          It focuses on the underlying transformation problem, including image pixelation, color quantization, mosaic reconstruction, and generation of a practical legend and shopping list.
+
+          The project is built with <b>Node.js</b>, <b>Docker</b>, and <b>JavaScript</b>, and I keep it featured as an open-source implementation of the core pattern-generation idea.
       - layout: left
         border: weak  # Value of `weak` will display a weak border below this item. # Any 
                       # other value (or no value) means no border will be displayed
@@ -197,7 +240,7 @@ content:
 
 
 # Footer
-footer_show_references: true
+footer_show_references: false
 # references_title: References on request (Override references text)
 
 # Build settings
