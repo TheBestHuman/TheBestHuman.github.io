@@ -158,6 +158,24 @@ content:
       - layout: left
         border: weak  # Value of `weak` will display a weak border below this item. # Any 
                       # other value (or no value) means no border will be displayed
+        title: LLM Application Security Scanner
+        link: https://gitlab.com/TheBestHuman/llm-application-security-scanner
+        link_text: LLM Application Security Scanner
+        additional_links:
+          - title: LLM Application Security Scanner on GitLab
+            icon: fa fa-gitlab
+            url: https://gitlab.com/TheBestHuman/llm-application-security-scanner
+        quote: >
+          A GitLab CI security reviewer that uses OpenAI to analyze merge requests, post Markdown findings, and fail only on High or Critical issues.
+        description: | # this will include new lines to allow paragraphs
+          GitLab LLM Security Reviewer is a minimal Python tool for reviewing merge requests in GitLab CI with OpenAI.
+
+          It posts a Markdown review comment to the merge request and exits non-zero only when findings include High or Critical severity.
+
+          The project also reports approximate token usage and cost, which makes it easier to understand review overhead in CI.
+      - layout: left
+        border: weak  # Value of `weak` will display a weak border below this item. # Any 
+                      # other value (or no value) means no border will be displayed
         title: Melticulous
         link: https://www.melticulous.com
         link_text: Melticulous
