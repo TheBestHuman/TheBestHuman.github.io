@@ -1,0 +1,175 @@
+# Site
+repository: Git repository where your resume will be hosted, only required if you are hosting on GitHub (eg. sproogen/modern-resume-theme)
+favicon: /favicon.ico
+
+# Content configuration version
+version: 2
+
+# Personal info
+name: Brian Kimmel
+title: Director of Software Engineering
+email: kimmelb@gmail.com
+website: briankimmel.net
+# website_title: Web (Website title override)
+
+# Blog posts section configuration
+blog_posts_section:
+  layout: left
+  title: "Writing"
+  data_file: "blog-posts"
+  
+
+# Dark Mode (true/false/never)
+darkmode: false
+
+# Additional icon links
+additional_links:
+- title: gitlab
+  icon: fa fa-gitlab
+  url: https://gitlab.com/users/TheBestHuman/projects
+
+# Social links
+linkedin_username: brianrkimmel
+stackoverflow_username: "2831"
+github_username:  thebesthuman
+
+# - title: another link
+#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
+#   url: Link url (eg. https://google.com)
+
+# Google Analytics and Tag Manager
+# Using more than one of these may cause issues with reporting
+# gtm: "GTM-0000000"
+# gtag: "UA-00000000-0"
+# google_analytics: "UA-00000000-0"
+
+# About Section
+# about_title: About Me (Use this to override about section title)
+about_profile_image: /images/profile.jpg
+about_content: | # this will include new lines to allow paragraphs
+ Hi, I’m Brian (he/him)! I’m a Director of Software Engineering with 20+ years of experience leading engineering organizations that deliver complex, high-impact systems, with a focus on modernizing legacy platforms and improving performance, security, and delivery speed. I build and grow high-performing groups through thoughtful hiring and mentorship, and I’m especially interested in helping engineers adopt practical AI workflows that consistently deliver results.
+
+content:
+  - title: Featured Personal Projects # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        border: weak  # Value of `weak` will display a weak border below this item. # Any 
+                      # other value (or no value) means no border will be displayed
+        title: LLM Application Security Scanner
+        link: https://gitlab.com/TheBestHuman/llm-application-security-scanner
+        link_text: LLM Application Security Scanner
+        additional_links:
+          - title: LLM Application Security Scanner on GitLab
+            icon: fa fa-gitlab
+            url: https://gitlab.com/TheBestHuman/llm-application-security-scanner
+        quote: >
+          A GitLab CI security reviewer that uses OpenAI to analyze merge requests, post Markdown findings, and fail only on High or Critical issues.
+        description: | # this will include new lines to allow paragraphs
+          GitLab LLM Security Reviewer is a minimal Python tool for reviewing merge requests in GitLab CI with OpenAI.
+
+          It posts a Markdown review comment to the merge request and exits non-zero only when findings include High or Critical severity.
+
+          The project also reports approximate token usage and cost, which makes it easier to understand review overhead in CI.
+      - layout: left
+        border: weak  # Value of `weak` will display a weak border below this item. # Any 
+                      # other value (or no value) means no border will be displayed
+        title: Melticulous
+        link: https://www.melticulous.com
+        link_text: Melticulous
+        additional_links:
+          - title: Melticulous website
+            icon: fa fa-globe
+            url: https://www.melticulous.com
+        quote: >
+          A browser-based app that turns your images into Perler bead patterns.
+        description: | # this will include new lines to allow paragraphs
+          Melticulous converts photos and other images into printable Perler bead patterns, helping makers turn personal pictures, landscapes, and pixel-art ideas into bead projects.
+
+          It generates a clean grid layout, reduces the image to a practical bead palette, and provides the visual guidance needed to recreate the design accurately.
+
+          Because it runs entirely in the browser, users can create patterns without sending their images to a backend service.
+      - layout: left
+        border: weak  # Value of `weak` will display a weak border below this item. # Any 
+                      # other value (or no value) means no border will be displayed
+        title: BeadMap
+        link: https://gitlab.com/TheBestHuman/beadmap
+        link_text: BeadMap
+        additional_links:
+          - title:  BeadMap on GitLab
+            icon: fa fa-gitlab
+            url: https://gitlab.com/TheBestHuman/beadmap
+        quote: >
+          An open-source bead pattern generator focused on image conversion and reproducible planning.
+        description: | # this will include new lines to allow paragraphs
+          BeadMap is an earlier, code-centric take on the same creative space: converting arbitrary images into structured bead plans that makers can actually follow.
+
+          It focuses on the underlying transformation problem, including image pixelation, color quantization, mosaic reconstruction, and generation of a practical legend and shopping list.
+
+          The project is built with <b>Node.js</b>, <b>Docker</b>, and <b>JavaScript</b>, and I keep it featured as an open-source implementation of the core pattern-generation idea.
+      - layout: left
+        border: weak  # Value of `weak` will display a weak border below this item. # Any 
+                      # other value (or no value) means no border will be displayed
+        title: long-wordle
+        link: https://gitlab.com/TheBestHuman/long-wordle
+        link_text: long-wordle
+        additional_links:
+          - title:  long-wordle on GitLab
+            icon: fa fa-gitlab
+            url: https://gitlab.com/TheBestHuman/long-wordle
+        quote: >
+          A clone of the original Wordle code with added features
+        description: | # this will include new lines to allow paragraphs
+          Originally written as a Valentine's gift for my partner, I built a modified version of Wordle that includes:
+          <ul><li>An expanded word list to make things extra challenging</li>
+              <li>Continuous play: after completing one puzzle, you can tap "NEXT WORD" to keep playing with a different word</li>
+              <li>Ability to share a board; allowing you to challenge others to the same word during continuous play</li>
+          </ul>
+      - layout: left
+        border: weak  # Value of `weak` will display a weak border below this item. # Any 
+                      # other value (or no value) means no border will be displayed
+        title: Desktop Sudoku Generator
+        link: https://github.com/TheBestHuman/DesktopSudokuGenerator
+        link_text: Desktop Sudoku Generator
+        additional_links:
+          - title:  Desktop Sudoku Generator on GitHub
+            icon: fa fa-github
+            url: https://github.com/TheBestHuman/DesktopSudokuGenerator
+        quote: >
+          An open-source random Sudoku puzzle generator
+        description: | # this will include new lines to allow paragraphs
+          Written for a client and open-sourced with permission, a cross-platform desktop Sudoku puzzle generator.
+      - layout: left
+        border: weak  # Value of `weak` will display a weak border below this item. # Any 
+                      # other value (or no value) means no border will be displayed
+        title: more at
+        link: https://gitlab.com/users/TheBestHuman/projects
+
+
+# Footer
+footer_show_references: false
+# references_title: References on request (Override references text)
+
+# Build settings
+# theme: modern-resume-theme (Use this is you are hosting your resume yourself)
+# remote_theme: sproogen/modern-resume-theme (Use this if you are hosting your resume on GitHub)
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
+
+exclude : [
+  "Gemfile",
+  "Gemfile.lock",
+  "node_modules",
+  "vendor/bundle/",
+  "vendor/cache/",
+  "vendor/gems/",
+  "vendor/ruby/",
+  "lib/",
+  "scripts/",
+  "docker-compose.yml",
+  ]

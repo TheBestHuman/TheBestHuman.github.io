@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: 'en' }}">
+{%- include head.html -%}
+
+<style>
+    /* General post styles */
+    #latest-posts .post {
+      margin: 0; /* Remove all margins initially */
+    }
+
+    /* Add margin to subsequent posts */
+    #latest-posts .post:not(:first-child) {
+      margin-left: 50px;
+    }
+
+    /* Remove margin for single column layouts */
+    @media (max-width: 768px) {
+      #latest-posts .post {
+        margin-left: 0 !important; /* Remove left margin for single column */
+      }
+    }
+
+</style>
+
+<body class="{% if site.darkmode == true and site.darkmode != 'never' %}dark{% endif %}">
+
+  {%- include header.html -%}
+
+  <main class="page-content" aria-label="Content">
+    <div class="wrapper">
+
+      {%- if jekyll.environment == 'production' and site.gtm -%}
+        {%- include gtm_body.html -%}
+      {%- endif -%}
+
+      {%- include about.html -%}
+
+        <!--BEGIN BLOG BLOCK-->
+        <div id="latest-posts" class="container {{ section.layout }}-container">
+          <h3 id="{{ section.title | slugify }}">{{ site.blog_posts_section.title }}</h3>
+          <div class="layout layout-left">
+          {% assign blog_posts = site.data[site.blog_posts_section.data_file] %}
+          {% if blog_posts %}
+            {% for post in blog_posts %}
+              <div class="post">
+                <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+                <p>{{ post.excerpt }}</p>
+              </div>
+            {% endfor %}
+          {% else %}
+            <p>No blog posts found.</p>
+          {% endif %}
+        </div>
+        </div>
+        <br>
+        <div class="container -container">more at <a href='https://pr.ogra.ms'>pr.ogra.ms</a></div>
+
+        <!--END BLOG BLOCK-->
+
+      {%- if site.version == 2 -%}
+        {% for section in site.content %}
+          <div class="container {{ section.layout }}-container">
+            <h3 id="{{ section.title | slugify }}">{{ section.title }}</h3>
+            {% include {{ section.layout | prepend: "section-" | append: ".html" }} content=section.content %}
+          </div>
+        {% endfor %}
+      {% else %}
+        {%- include v1/default.html -%}
+      {%- endif -%}
+    </div>
+  </main>
+
+  {%- include footer.html -%}
+  {% if site.darkmode == false %}
+    <script src="{{ '/assets/js/index.js' | relative_url }}"></script>
+  {% endif %}
+
+
+</body>
+
+</html>
